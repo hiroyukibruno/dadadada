@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height:100vh ;
+    min-width:100vw  ;
+
+    background-color: rgb(71, 71, 71);
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.content {
+backgorund-color: red;
+max-width: 600px;
+padding: 1.5rem;
+
+}
+
+.content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.title {
+    column-rule: gray;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
